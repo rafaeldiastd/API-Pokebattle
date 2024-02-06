@@ -127,7 +127,7 @@ app.post("/usuario/capturar/:idUsuario", (req, res) => {
     defense,
     types
   });
-  res.json({ message: "Pokémon capturado com sucesso!" });
+  res.json({ message: `O Pokémon ${nome} foi capturado com sucesso!` });
 });
 
 
