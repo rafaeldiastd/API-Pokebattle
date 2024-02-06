@@ -143,7 +143,7 @@ app.post("/usuario/favoritar/:idUsuario", (req, res) => {
     id,
     name
   });
-  res.json({ message: "Pokémon favoritado com sucesso!" });
+  res.json({ message: "O pokémon favoritado com sucesso!" });
 });
 
 
