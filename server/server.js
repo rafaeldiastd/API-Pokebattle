@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3031;
+const port = 3000;
 const uuid = require("uuid");
 const axios = require("axios");
 const cors = require("cors");
